@@ -3,4 +3,3 @@
 --require ./test/__helper
 --full-trace
 --es_staging
---watch
