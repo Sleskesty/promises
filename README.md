@@ -4,9 +4,9 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
-# Boilerplate
+# Asynchronous JavaScript: (Async/Await and Promises)
 
-Basic example exercise for the new platform. Make sure you're using the new application when running the below commands.
+For this assignment, we'll be exploring async/await.
 
 ## Instructions
 
@@ -23,3 +23,12 @@ yarn build
 # Test the application
 yarn test
 ```
+
+### Exploring Promises
+
+The first part of the assignment we'll be exploring promises, specifically in the index.js file.  Please follow the instructions on the top of the functions inside the `src/index.js` file.
+
+### Creating the Calculator
+
+The second part of the assignment we'll be creating a calculator.  Follow the instructions in the `src/calculator.js` file.
+
