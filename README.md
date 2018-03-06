@@ -1,8 +1,4 @@
-<img src="http://i.imgur.com/UzC7XPe.png" alt="Helio Training" width="226" align="center"/> v1.0.0
-
----------------
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
+[![pipeline status](https://gitlab.com/helio-training/exercises/asynchronous-javascript-exercise/badges/solutions/pipeline.svg)](https://gitlab.com/helio-training/exercises/asynchronous-javascript-exercise/commits/solutions)
 
 # Asynchronous JavaScript: (Async/Await and Promises)
 
