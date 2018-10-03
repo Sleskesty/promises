@@ -2,14 +2,17 @@
  * Create a string with your name, wrap it with a promise, and return it.
  */
 export const resolvingValues = () => {
-  return REPLACE_WITH_CODE
+  return new Promise( (res, rej) => {res('Ryley')})
 }
+
+
+
 
 /**
  * Return a rejected promise that has 'Doh' as the message
  */
 export const rejectedPromise = () => {
-  return REPLACE_WITH_CODE
+  return new Promise ( (res, rej) => {rej('Doh')})
 }
 
 /**
@@ -18,7 +21,7 @@ export const rejectedPromise = () => {
  *  - When the number is negative, reject the promise, provide the number as the rejection message
  */
 export const conditionallyReject = (number = 0) => {
-  return REPLACE_WITH_CODE
+  return new Promise ( (res, rej) => {(number>0) ? res(number) : rej(number)})
 }
 
 const REPLACE_WITH_CODE = false

@@ -7,8 +7,11 @@
  * @param {Array<string>} values
  * @returns {Promise<Number>}
  */
-const add = async (...values) => {
-
+export const add = async (...values) => {
+    const reducifier = (accumlifier, curvalifier) => {
+        return accumlifier + curvalifier
+    }
+    return new Promise((res, rej) =>{res(values.reduce(reducifier))})
 }
 
 /**
@@ -21,12 +24,16 @@ const add = async (...values) => {
  * @returns {Promise<Number>}
  */
 const subtract = async (...values) => {
+        const subtractifier = (accumlifier, curvalifier) => {
+            return accumlifier - curvalifier
+        }
+        return new Promise((res, rej) =>{res(values.reduce(subtractifier, 0))})
 
 }
 
 /**
  * Export out the add, and subtract
  */
-export default {
-
+export default  {
+add, subtract 
 }
